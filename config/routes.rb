@@ -8,7 +8,8 @@ Rails.application.routes.draw do
   
   get 'tweet/new', to: 'tweet#new'
   #本当はpost、画面遷移させるためにゲットを使っている
+  #userloginの所は「スラッシュ＋link_toの中の_pathの前の部分」
+  get '/user_login', to: 'user#login'
   get 'user/create', to: 'user#create'
-  get 'user/login', to: 'user#login'
   get 'user/show', to: 'user#show'
 end
