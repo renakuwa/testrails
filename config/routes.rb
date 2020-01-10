@@ -10,6 +10,6 @@ Rails.application.routes.draw do
   #本当はpost、画面遷移させるためにゲットを使っている
   #userloginの所は「スラッシュ＋link_toの中の_pathの前の部分」
   get '/user_login', to: 'user#login'
-  get 'user/create', to: 'user#create'
+  get '/user_create', to: 'user#create'
   get 'user/show', to: 'user#show'
 end
