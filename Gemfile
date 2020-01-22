@@ -37,7 +37,7 @@ gem 'bootsnap', '>= 1.1.0', require: false
 gem 'jquery-rails'
 gem 'faker'
 gem 'carrierwave',             '1.1.0'
-gem 'mini_magick',             '4.7.0'
+gem 'mini_magick',             '4.9.4'
 gem 'fog',                     '1.40.0'
 gem 'will_paginate',    '3.1.7'
 gem 'bootstrap-will_paginate', '1.0.0'
