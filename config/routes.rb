@@ -2,6 +2,7 @@ Rails.application.routes.draw do
 
   
   root to:'home#index'
+  
   get '/help', to: 'home#help'
   get 'home/about', to: 'home#about'
   get '/contact', to: 'home#contact'
@@ -17,8 +18,7 @@ Rails.application.routes.draw do
   # get 'user/show', to: 'user#show'
   # get 'tweet/new', to: 'tweet#new'
   resources :users
-  
-
+  resources :microposts, only:[:create, :destroy]
   
 end
 
