@@ -36,7 +36,7 @@ gem 'bcrypt',  '3.1.11'
 gem 'bootsnap', '>= 1.1.0', require: false
 gem 'jquery-rails'
 gem 'faker'
-gem 'carrierwave',             '1.1.0'
+gem 'carrierwave',             '1.3.2'
 gem 'mini_magick',             '4.7.0'
 gem 'fog',                     '1.40.0'
 gem 'will_paginate',    '3.1.7'
